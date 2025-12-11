@@ -32,4 +32,8 @@ fn main() {
     let number: f64 = 1.0;
     let width: usize = 8;
     println!("{number:0>width$}");
+
+    // Exercise
+    let pi: f64 = 3.141592;
+    println!("Value of pi: {pi:.3}");
 }
